@@ -5,9 +5,9 @@ on: push
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: pipeline-testing
-  ECS_SERVICE: pipeline-testing
+  ECS_SERVICE: pipeline-testing-service
   ECS_CLUSTER: pipeline-testing
-  ECS_TASK_DEFINITION: .github/workflows/task-definition.json
+  ECS_TASK_DEFINITION: task-definition.json
 
   CONTAINER_NAME: pipeline-testing
 
