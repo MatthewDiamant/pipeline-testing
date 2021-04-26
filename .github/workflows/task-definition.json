@@ -51,7 +51,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "sample-app"
+      "name": "pipeline-testing"
     }
   ],
   "placementConstraints": [],
